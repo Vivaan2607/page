@@ -1,0 +1,68 @@
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 100px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: relative;
+  bottom: 200px;
+  left: -225px;
+
+
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 150px;
+  bottom: 100px;
+
+}
+
+/* Top right text */
+.top-right {
+  position: relative;
+  top: -500px;
+  right: -400px;
+  bottom: 500px;
+
+  padding-right: 150px;
+
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: relative;
+  top: -700px;
+  left: 900px;
+  transform: translate(-50%, -50%);
+}
+
+input[type=submit] {
+  background-color: #2C2891;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body{
+
+  font-family: sans-serif;
+  color: white;
+}
